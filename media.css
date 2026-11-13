@@ -1,0 +1,1713 @@
+/* =====================================
+   RESPONSIVE CSS LIBRARY
+   Personal Reference
+===================================== */
+
+
+/* =====================================
+   1. BREAKPOINTS
+===================================== */
+
+
+
+/* Full Width Container */
+/* 
+.container-fluid {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+/* Prevent Flex Items from Shrinking */
+.flex-no-shrink {
+    flex-shrink: 0;
+}
+
+/* Allow Flex Items to Grow */
+.flex-grow {
+    flex-grow: 1;
+}
+
+/* Allow Flex Items to Shrink */
+.flex-shrink {
+    flex-shrink: 1;
+}
+
+/* Responsive Image */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-box {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+ */
+
+
+/* Extra Small Devices - Mobile */
+@media screen and (max-width: 480px) {
+
+       .flex-column-mobile {
+        flex-direction: column;
+    }
+
+    .flex-wrap-mobile {
+        flex-wrap: wrap;
+    }
+        .justify-center-mobile {
+        justify-content: center;
+    }
+        .heading-mobile {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+        .mobile-text-small {
+        font-size: 14px;
+    }
+
+    .mobile-text-medium {
+        font-size: 18px;
+    }
+
+    .mobile-text-large {
+        font-size: 24px;
+    }
+
+    .text-center-mobile {
+        text-align: center;
+    }
+
+    /* Remove Margin */
+    .mobile-no-margin {
+        margin: 0;
+    }
+
+    /* Remove Padding */
+    .mobile-no-padding {
+        padding: 0;
+    }
+
+    /* Small Padding */
+    .mobile-padding-small {
+        padding: 15px;
+    }
+
+    /* Small Margin */
+    .mobile-margin-small {
+        margin: 15px;
+    }
+
+    /* Reduce Flex Gap */
+    .mobile-gap-small {
+        gap: 10px;
+    }
+ 
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+   /* .navbar .links ul{ 
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .navbar .container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .product{
+        padding-top: 130px;
+        padding-bottom: 30px;
+    }
+    .product-img ,.product-info{
+        width: 100%;
+    }
+    .product-button{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .key-feature .container .cards{
+        width: 100%;
+    }
+    .key-feature .container .cards .inner{
+        width: 100%;
+    }
+    .key-feature .creators{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .key-feature .creators .accessories{
+        text-align: center;
+    }
+    .reviews .review-container{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+          width: 100%;
+       align-items: stretch;
+    }
+ 
+    .reviews .rating-review{
+        width: 100%;
+        position: static;
+    } 
+    .reviews .rating-row{
+        width: 100%;
+        flex-wrap: nowrap;
+        align-items: center;
+       
+    }
+    .reviews{
+        padding: 40px 15px;
+    }
+    .reviews .container{
+        width: 100%;
+        max-width: 100%;
+    }
+    .reviews .customer-review {
+        width: 100%;
+    }
+    .reviews .customer-review .comment{
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+       
+        padding: 20px;
+        width: 100%;
+    }
+    .reviews .customer-review  .img-comment{
+        width: 64%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 10px;
+    }
+    .reviews .customer-review  .img-comment img{
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+    .reviews .customer-review .detail{
+        min-width: 0;
+    }
+    .reviews .customer-review  .title{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        text-align: left;
+    }
+
+    .setup .header{
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .setup .product-container{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .setup .inner{
+        width: 100%;
+        padding: 10px;
+
+    }
+    .setup .product{
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer{
+        padding-top: 30px;
+    }
+    .footer .container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .footer .title-company{
+        width: 100%;
+    }
+    .footer .product-list{
+        width: 100%;
+        padding: 15px  10px;
+    }
+    .footer .support-list{
+         width: 100%;
+        padding: 15px  10px;
+    }
+    .footer .company-list{
+         width: 100%;
+        padding: 15px  10px;
+    }
+    .footer .footer-footer{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer .footer-footer .adress{
+        width: 100%;
+        text-align: center;
+    }
+    .footer .footer-footer .adress p{
+        font-size: 13px;
+    } */
+      /* NAVBAR */
+    .navbar {
+        left: 2%;
+        right: 2%;
+        padding: 6px 10px;
+        gap: 6px;
+    }
+
+    .navbar .navbar-name h1 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .navbar .elm-navbar .elm {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .navbar .elm-navbar a {
+        font-size: 12px;
+    }
+
+    .navbar .subscribe {
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+
+
+    /* HERO */
+    .hero {
+        padding: 110px 15px 40px;
+    }
+
+    .hero .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .hero .container .hero-title,
+    .hero .container .hero-photo {
+        width: 100%;
+    }
+
+    .hero .container .hero-title .style-hero-title {
+        font-size: 42px;
+        line-height: 1.2;
+        white-space: normal;
+    }
+
+    .hero .container .hero-title span {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .hero .container .hero-title p {
+        font-size: 16px;
+        line-height: 25px;
+        padding: 12px;
+    }
+
+    .hero .container .hero-search {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .hero .container .hero-search .heroo {
+        width: 100%;
+        padding: 8px 15px;
+        margin-top: 10px;
+    }
+
+    .hero .container .hero-photo {
+        position: relative;
+        top: 0;
+        margin-top: 20px;
+        transform: none;
+    }
+
+    .hero .container .hero-photo img {
+        position: static;
+        top: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .hero .container .hero-photo h3 {
+        font-size: 16px;
+        padding: 5px 12px;
+    }
+
+    /* LATEST ARTICLES - MOBILE */
+
+.main {
+    padding: 25px 10px;
+}
+
+.main .main-latest {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main .fresh-con,
+.main .attatch-trend {
+    width: 100%;
+}
+
+.main .main-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.main .main-header .h2 h2 {
+    font-size: 20px;
+    line-height: 1.4;
+    white-space: normal;
+}
+
+.main .main-header .span span {
+    font-size: 13px;
+    padding: 7px;
+}
+
+/* ARTICLE CARDS */
+
+.main .tech,
+.main .design,
+.main .culture {
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+    margin: 25px auto;
+}
+
+.main .tech .img-tech,
+.main .culture .img-culture,
+.main .design .img-design {
+    width: 100%;
+}
+
+.main .tech .detailes-tech,
+.main .culture .detailes-culture,
+.main .design .detailes-design {
+    width: 100%;
+}
+
+.main .tech .detailes-tech h3,
+.main .design .detailes-design h3,
+.main .culture .detailes-culture h3 {
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+.main .tech .detailes-tech h4,
+.main .design .detailes-design h4,
+.main .culture .detailes-culture h4 {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* ARTICLE INFORMATION */
+
+.main .info {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.main .info img {
+    width: 16px;
+    height: 16px;
+}
+
+.main .info h5 {
+    font-size: 11px;
+}
+
+/* LOAD MORE */
+
+.main .fresh-con .more-article {
+    margin: 30px auto;
+}
+
+.main .fresh-con .more-article button {
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+/* TRENDING NOW */
+
+.main .attatch-trend {
+    position: static;
+}
+
+.attatch-trend .trending-now {
+    position: static;
+    white-space: normal;
+    padding: 15px;
+    margin: 25px 0;
+}
+
+.attatch-trend .trending-now h2 {
+    font-size: 22px;
+}
+
+.attatch-trend .trending-now .one,
+.attatch-trend .trending-now .two,
+.attatch-trend .trending-now .three {
+    font-size: 25px;
+}
+
+.attatch-trend .trending-now .comment {
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.attatch-trend .trending-now .trend h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+/* CATEGORIES */
+
+.attatch-trend .categories {
+    position: static;
+    white-space: normal;
+    padding: 15px;
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+.attatch-trend .categories button {
+    padding: 12px;
+    font-size: 14px;
+}
+    
+    /* AUTHORS - MOBILE */
+
+.AUTHORS {
+    padding: 30px 10px;
+}
+
+.AUTHORS h2 {
+    font-size: 28px;
+    line-height: 1.3;
+}
+
+.AUTHORS p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.AUTHORS .meet-authors {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.AUTHORS .meet-authors .character {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 15px;
+}
+
+.AUTHORS .meet-authors .character img {
+    width: 35%;
+}
+
+.AUTHORS .meet-authors .character h3 {
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.AUTHORS .meet-authors .character h4 {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.AUTHORS .meet-authors .character p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.AUTHORS .meet-authors .contact {
+    gap: 15px;
+    margin: 15px auto;
+}
+
+.AUTHORS .meet-authors .note img {
+    width: 35px;
+    height: 35px;
+}
+
+     .community {
+        padding: 30px 10px;
+    }
+
+    .community h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .community p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .community .community-join {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .community .something-bigger {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .community .something-bigger h3 {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .community .something-bigger p {
+        font-size: 15px;
+        line-height: 1.7;
+        padding: 12px;
+    }
+
+    .community .something-bigger .vip {
+        gap: 15px;
+        align-items: center;
+    }
+
+    .community .something-bigger .vip-img {
+        flex-shrink: 0;
+        width: 35px;
+        height: 35px;
+    }
+
+    .community .something-bigger .vip-img img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .community .something-bigger .vip .h4-vip {
+        white-space: normal;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .community .something-bigger .join {
+        margin: 30px auto;
+        justify-content: center;
+    }
+
+    .community .something-bigger .join span {
+        justify-content: center;
+        align-items: center;
+        padding: 8px 15px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .community .something-bigger .join .img-rocket img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .community .rebels-saying {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .community .rebels-saying h2 {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    .community .rebels-saying .border-comment {
+        padding: 12px;
+        margin-top: 15px;
+    }
+
+    .community .rebels-saying .border-comment p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .community .rebels-saying .border-comment .img img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+
+    .community .rebels-saying .border-comment .img-name {
+        gap: 10px;
+    }
+
+    .community .rebels-saying .border-comment .name h5 {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .community .rebels-saying .border-comment .name h6 {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    
+
+/* Footer Mobile */
+
+.footer-project {
+    padding: 35px 10px 20px;
+}
+
+.footer-project .footer {
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-project .project-description,
+.footer-project .footer-categories,
+.footer-project .newseletter {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.footer-project .project-description .img-project img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-project .project-description .header-project h1 {
+    font-size: 23px;
+    line-height: 1.3;
+}
+
+.footer-project .project-description p,
+.footer-project .newseletter p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.footer-project .footer-categories h2,
+.footer-project .newseletter h2 {
+    font-size: 21px;
+    line-height: 1.4;
+}
+
+.footer-project .footer-categories a {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.footer-project .newseletter form {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.footer-project .newseletter form input,
+.footer-project .newseletter form button {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.footer-project .newseletter form input {
+    padding: 12px;
+}
+
+.footer-project .footer-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-project .footer-footer .Version h3 {
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.footer-project .footer-footer .footer-features {
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-project .footer-footer .footer-features h3 {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Small Devices - Mobile & Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+       .flex-column-mobile {
+        flex-direction: column;
+    }
+
+    .flex-wrap-mobile {
+        flex-wrap: wrap;
+    }
+        .justify-center-mobile {
+        justify-content: center;
+    }
+        .heading-mobile {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+        .mobile-text-small {
+        font-size: 14px;
+    }
+
+    .mobile-text-medium {
+        font-size: 18px;
+    }
+
+    .mobile-text-large {
+        font-size: 24px;
+    }
+
+    .text-center-mobile {
+        text-align: center;
+    }
+
+    /* Remove Margin */
+    .mobile-no-margin {
+        margin: 0;
+    }
+
+    /* Remove Padding */
+    .mobile-no-padding {
+        padding: 0;
+    }
+
+    /* Small Padding */
+    .mobile-padding-small {
+        padding: 15px;
+    }
+
+    /* Small Margin */
+    .mobile-margin-small {
+        margin: 15px;
+    }
+
+    /* Reduce Flex Gap */
+    .mobile-gap-small {
+        gap: 10px;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        left: 2%;
+        right: 2%;
+        padding: 6px 10px;
+        gap: 6px;
+    }
+
+    .navbar .navbar-name h1 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .navbar .elm-navbar .elm {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .navbar .elm-navbar a {
+        font-size: 12px;
+    }
+
+    .navbar .subscribe {
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+
+
+    /* HERO */
+    .hero {
+        padding: 110px 15px 40px;
+    }
+
+    .hero .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .hero .container .hero-title,
+    .hero .container .hero-photo {
+        width: 100%;
+    }
+
+    .hero .container .hero-title .style-hero-title {
+        font-size: 42px;
+        line-height: 1.2;
+        white-space: normal;
+    }
+
+    .hero .container .hero-title span {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    .hero .container .hero-title p {
+        font-size: 16px;
+        line-height: 25px;
+        padding: 12px;
+    }
+
+    .hero .container .hero-search {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .hero .container .hero-search .heroo {
+        width: 100%;
+        padding: 8px 15px;
+        margin-top: 10px;
+    }
+
+    .hero .container .hero-photo {
+        position: relative;
+        top: 0;
+        margin-top: 20px;
+        transform: none;
+    }
+
+    .hero .container .hero-photo img {
+        position: static;
+        top: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .hero .container .hero-photo h3 {
+        font-size: 16px;
+        padding: 5px 12px;
+    }
+
+/* LATEST ARTICLES - MOBILE */
+
+.main {
+    padding: 25px 10px;
+}
+
+.main .main-latest {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main .fresh-con,
+.main .attatch-trend {
+    width: 100%;
+}
+
+.main .main-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.main .main-header .h2 h2 {
+    font-size: 20px;
+    line-height: 1.4;
+    white-space: normal;
+}
+
+.main .main-header .span span {
+    font-size: 13px;
+    padding: 7px;
+}
+
+/* ARTICLE CARDS */
+
+.main .tech,
+.main .design,
+.main .culture {
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+    margin: 25px auto;
+}
+
+.main .tech .img-tech,
+.main .culture .img-culture,
+.main .design .img-design {
+    width: 100%;
+}
+
+.main .tech .detailes-tech,
+.main .culture .detailes-culture,
+.main .design .detailes-design {
+    width: 100%;
+}
+
+.main .tech .detailes-tech h3,
+.main .design .detailes-design h3,
+.main .culture .detailes-culture h3 {
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+.main .tech .detailes-tech h4,
+.main .design .detailes-design h4,
+.main .culture .detailes-culture h4 {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* ARTICLE INFORMATION */
+
+.main .info {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.main .info img {
+    width: 16px;
+    height: 16px;
+}
+
+.main .info h5 {
+    font-size: 11px;
+}
+
+/* LOAD MORE */
+
+.main .fresh-con .more-article {
+    margin: 30px auto;
+}
+
+.main .fresh-con .more-article button {
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+/* TRENDING NOW */
+
+.main .attatch-trend {
+    position: static;
+}
+
+.attatch-trend .trending-now {
+    position: static;
+    white-space: normal;
+    padding: 15px;
+    margin: 25px 0;
+}
+
+.attatch-trend .trending-now h2 {
+    font-size: 22px;
+}
+
+.attatch-trend .trending-now .one,
+.attatch-trend .trending-now .two,
+.attatch-trend .trending-now .three {
+    font-size: 25px;
+}
+
+.attatch-trend .trending-now .comment {
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.attatch-trend .trending-now .trend h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+/* CATEGORIES */
+
+.attatch-trend .categories {
+    position: static;
+    white-space: normal;
+    padding: 15px;
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+.attatch-trend .categories button {
+    padding: 12px;
+    font-size: 14px;
+}
+/* AUTHORS - MOBILE */
+
+.AUTHORS {
+    padding: 30px 10px;
+}
+
+.AUTHORS h2 {
+    font-size: 28px;
+    line-height: 1.3;
+}
+
+.AUTHORS p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.AUTHORS .meet-authors {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.AUTHORS .meet-authors .character {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px 15px;
+}
+
+.AUTHORS .meet-authors .character img {
+    width: 35%;
+}
+
+.AUTHORS .meet-authors .character h3 {
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.AUTHORS .meet-authors .character h4 {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.AUTHORS .meet-authors .character p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.AUTHORS .meet-authors .contact {
+    gap: 15px;
+    margin: 15px auto;
+}
+
+.AUTHORS .meet-authors .note img {
+    width: 35px;
+    height: 35px;
+}
+  .community {
+        padding: 30px 10px;
+    }
+
+    .community h2 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+
+    .community p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .community .community-join {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .community .something-bigger {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .community .something-bigger h3 {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .community .something-bigger p {
+        font-size: 15px;
+        line-height: 1.7;
+        padding: 12px;
+    }
+
+    .community .something-bigger .vip {
+        gap: 15px;
+        align-items: center;
+    }
+
+    .community .something-bigger .vip-img {
+        flex-shrink: 0;
+        width: 35px;
+        height: 35px;
+    }
+
+    .community .something-bigger .vip-img img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .community .something-bigger .vip .h4-vip {
+        white-space: normal;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .community .something-bigger .join {
+        margin: 30px auto;
+        justify-content: center;
+    }
+
+    .community .something-bigger .join span {
+        justify-content: center;
+        align-items: center;
+        padding: 8px 15px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .community .something-bigger .join .img-rocket img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .community .rebels-saying {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .community .rebels-saying h2 {
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    .community .rebels-saying .border-comment {
+        padding: 12px;
+        margin-top: 15px;
+    }
+
+    .community .rebels-saying .border-comment p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .community .rebels-saying .border-comment .img img {
+        width: 40px;
+        height: 40px;
+        object-fit: cover;
+    }
+
+    .community .rebels-saying .border-comment .img-name {
+        gap: 10px;
+    }
+
+    .community .rebels-saying .border-comment .name h5 {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .community .rebels-saying .border-comment .name h6 {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+    /* Footer Mobile */
+
+.footer-project {
+    padding: 35px 10px 20px;
+}
+
+.footer-project .footer {
+    flex-direction: column;
+    gap: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-project .project-description,
+.footer-project .footer-categories,
+.footer-project .newseletter {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.footer-project .project-description .img-project img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-project .project-description .header-project h1 {
+    font-size: 23px;
+    line-height: 1.3;
+}
+
+.footer-project .project-description p,
+.footer-project .newseletter p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.footer-project .footer-categories h2,
+.footer-project .newseletter h2 {
+    font-size: 21px;
+    line-height: 1.4;
+}
+
+.footer-project .footer-categories a {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.footer-project .newseletter form {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.footer-project .newseletter form input,
+.footer-project .newseletter form button {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.footer-project .newseletter form input {
+    padding: 12px;
+}
+
+.footer-project .footer-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer-project .footer-footer .Version h3 {
+    font-size: 11px;
+    line-height: 1.6;
+}
+
+.footer-project .footer-footer .footer-features {
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-project .footer-footer .footer-features h3 {
+    font-size: 12px;
+    line-height: 1.5;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium Devices - Tablets */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    /* NAVBAR */
+    .navbar {
+        left: 3%;
+        right: 3%;
+        padding: 8px 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .navbar .navbar-name {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .elm-navbar {
+        width: 100%;
+    }
+
+    .navbar .elm-navbar .elm {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .navbar .subscribe {
+        padding: 8px 15px;
+    }
+
+
+    /* HERO */
+    .hero {
+        padding: 120px 20px 50px;
+    }
+
+    .hero .container {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .hero .hero-title,
+    .hero .hero-photo {
+        width: 100%;
+    }
+
+    .hero .container .hero-title .style-hero-title {
+        font-size: 60px;
+        line-height: 1.1;
+    }
+
+    .hero .container .hero-title p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .hero .container .hero-photo {
+        width: 85%;
+        margin: auto;
+    }
+    /* LATEST ARTICLES - TABLET */
+
+.main {
+    padding: 35px 15px;
+}
+
+.main .main-latest {
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.main .fresh-con,
+.main .attatch-trend {
+    width: 100%;
+}
+
+.main .main-header {
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.main .main-header .h2 h2 {
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.main .culture,
+.main .design,
+.main .tech {
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 20px;
+}
+
+.main .tech .img-tech,
+.main .culture .img-culture,
+.main .design .img-design {
+    width: 40%;
+}
+
+.main .tech .detailes-tech,
+.main .culture .detailes-culture,
+.main .design .detailes-design {
+    width: calc(60% - 20px);
+}
+
+.main .tech .detailes-tech h3,
+.main .design .detailes-design h3,
+.main .culture .detailes-culture h3 {
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+.main .tech .detailes-tech h4,
+.main .design .detailes-design h4,
+.main .culture .detailes-culture h4 {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.main .info {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.main .attatch-trend {
+    position: static;
+}
+
+.attatch-trend .trending-now,
+.attatch-trend .categories {
+    position: static;
+    white-space: normal;
+    margin: 25px 0;
+}
+
+.attatch-trend .trending-now h2,
+.attatch-trend .categories h2 {
+    font-size: 25px;
+}
+
+.attatch-trend .trending-now .trend h3 {
+    font-size: 17px;
+    font-weight: 700;
+}
+/* AUTHORS - TABLET */
+
+.AUTHORS {
+    padding: 40px 15px;
+}
+
+.AUTHORS h2 {
+    font-size: 38px;
+    line-height: 1.2;
+}
+
+.AUTHORS p {
+    font-size: 18px;
+}
+
+.AUTHORS .meet-authors {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.AUTHORS .meet-authors .character {
+    width: calc(50% - 15px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.AUTHORS .meet-authors .character img {
+    width: 40%;
+}
+
+
+    .community {
+        padding: 45px 15px;
+    }
+
+    .community h2 {
+        font-size: 38px;
+        line-height: 1.2;
+    }
+
+    .community p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .community .community-join {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .community .something-bigger {
+        width: calc(50% - 15px);
+        margin-top: 40px;
+    }
+
+    .community .something-bigger h3 {
+        font-size: 25px;
+        line-height: 1.4;
+    }
+
+    .community .something-bigger p {
+        font-size: 16px;
+        line-height: 1.7;
+        padding: 12px;
+    }
+
+    .community .something-bigger .vip {
+        gap: 15px;
+    }
+
+    .community .something-bigger .vip .h4-vip {
+        white-space: normal;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .community .something-bigger .join {
+        margin: 35px auto;
+    }
+
+    .community .something-bigger .join span {
+        padding: 8px 15px;
+        font-size: 18px;
+    }
+
+    .community .rebels-saying {
+        width: calc(50% - 15px);
+        padding: 20px;
+    }
+
+    .community .rebels-saying h2 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .community .rebels-saying .border-comment {
+        padding: 10px;
+    }
+
+    .community .rebels-saying .border-comment p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .community .rebels-saying .border-comment .name h5 {
+        line-height: 1.3;
+    }
+
+    .community .rebels-saying .border-comment .name h6 {
+        line-height: 1.4;
+    }
+    /* Footer Tablet */
+
+.footer-project {
+    padding: 50px 15px 30px;
+}
+
+.footer-project .footer {
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-project .project-description {
+    width: calc(50% - 15px);
+}
+
+.footer-project .footer-categories {
+    width: calc(50% - 15px);
+}
+
+.footer-project .newseletter {
+    width: 100%;
+}
+
+.footer-project .newseletter form {
+    flex-wrap: nowrap;
+}
+
+.footer-project .newseletter form input {
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.footer-project .newseletter form button {
+    width: 40%;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.footer-project .footer-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-project .footer-footer .footer-features {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+}
+
+
+
+
+
+
+/* Large Devices - Laptops */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+/* Extra Large Devices - Desktops */
+@media screen and (min-width: 1201px) {
+
+}
